@@ -6,6 +6,18 @@
 // //    Якщо користувач вводить "ECMAScript", то показати за допомогою alert("Вірно!")
 // //    У інших випадках показати "Не знаєте? ECMAScript!"
 
+
+// let userQuestion = prompt(`Яка офіційна назва JavaScript?`);
+
+// if (userQuestion.toLowerCase() === `ecmascript`) {
+//     alert(`Вірно!`)
+// }
+// else {
+//     alert(`Не знаєте? ECMAScript!`)
+// }
+
+
+
 // 2
 // Напишіть програму, яка отримає від користувача число(кількість хвилин)
 // // і виведе у консоль рядок у форматі годин та хвилин
@@ -14,26 +26,43 @@
 // const globalMinutes = 90
 
 
+// const globalMinutes = 90;
 
-// 10 Напишіть цикл, який виводить у консоль числа від max до min у порядку зменшення.
-// У консоль виведіть усі парні числа від max  до min
+// const minutes = String(globalMinutes%60).padStart(2, 0)
+// const hours = String(Math.floor(globalMinutes/60)).padStart(2, 0);
+// console.log(`${hours}:${minutes}`) 
+
+
+
+// 3
+// // За допомогою цикла for додайте всі парні числа від min до max
+// const max = 50
+// const min = 23
+
 
 // const max = 50
 // const min = 23
 
-// for (let i= max; i >= min; i--) {
-//    if (!(i%2)) {
-//     console.log(i)
-
-//    }
+//3.1  
+//  for (i = max; i >= min; i--) {
+//     if (i%2 === 0) {
+//         console.log(i);
+//     }
 // }
 
-// 3
-// // За допомогою цикла for додайте всі парні числа від min до max
+// 3.2
+// for (i = min; i <= max; i++) {
+//     if (i%2 === 0) {
+//         console.log(i);
+//     }
+// }
 
-// const max = 50
-// const min = 0
-
+// 3.3
+// for (i = min; i <= max; i++) {
+//     if (!(i%2)) {
+//         console.log(i);
+//     }
+// }
 
 
 // 4
@@ -139,3 +168,17 @@
 //     console.log("ні");
 // }
 
+
+
+// 10 Напишіть цикл, який виводить у консоль числа від max до min у порядку зменшення.
+// У консоль виведіть усі парні числа від max  до min
+
+// const max = 50
+// const min = 23
+
+// for (let i= max; i >= min; i--) {
+//    if (!(i%2)) {
+//     console.log(i)
+
+//    }
+// }

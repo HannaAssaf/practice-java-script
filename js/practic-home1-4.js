@@ -108,7 +108,7 @@
 
 
 
-const courses = [`HTML`, `CSS`, `JavaScript`, `React`, `TypeScript`];
+// const courses = [`HTML`, `CSS`, `JavaScript`, `React`, `TypeScript`];
 
 // for (let i=0; i < courses.length; i++) {
 //     if (courses[i].includes(`a`)) {
@@ -120,3 +120,55 @@ const courses = [`HTML`, `CSS`, `JavaScript`, `React`, `TypeScript`];
 //     const s = `${i+1}:${courses[i]}`;
 //     console.log(s);
 // }
+
+
+
+
+// const add = function() {
+//     const arr = Array.from(arguments);
+//     let total = 0;
+// for (const item of arr) {
+//     total += item;
+//     }
+
+//     return total;
+// }
+// console.log(add(1, 2, 3));
+
+// let value;
+// console.log(value);
+
+// const quantity = 17;
+// console.log(typeof quantity);
+
+// let status = null;
+// console.log(typeof status);
+
+// const x = 37;
+// const y = 5;
+// console.log(x % y);
+
+// const product = "Repair droid";
+// console.log(product[product.length - 1]);
+
+// console.log(undefined == null); 
+
+// console.log(false == null); 
+
+// console.log(0.1 + 0.2);
+
+// const password = 'true';
+// const myKey = password;
+
+// const obj = {
+//   [myKey]: false,
+// };
+
+// console.log(obj);
+
+const iterable = [10, 20, 30];
+for (let value of iterable) {
+    value += 1;
+    console.log(value);
+}
+
