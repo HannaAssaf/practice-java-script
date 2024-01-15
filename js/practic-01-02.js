@@ -74,18 +74,7 @@
 // Робити перевірку, що користувач ввів саме число, а не довільні символи, не потрібно.
 
 
-// 5
-// let message = prompt("Введіть число");
-// let total = 0;
-// do {
-//     if (message === null || message === "")
-// total += Number(message);
-// message = prompt("Введіть число")
-// }
-// while (message)
-// alert(`Загальна сума введених чисел дорівнює ${total}.`)
-
-
+// Рішення:
 
 // варіант:
 // let num = prompt('input number');
@@ -96,7 +85,24 @@
 //   num = prompt('input number');
 // }
 
-// alert(total);
+// alert(`Загальна сума введених чисел дорівнює ${total}.`);
+
+
+
+// ++++++++++++++++++++поганий приклад:
+// let num = prompt('input number');
+// let total = 0;
+
+// do { if num === null || null === "" {
+//     break;
+// }
+// total += Number(num);
+// num = prompt('input number');
+// }
+// while (num);
+
+// alert(`Загальна сума введених чисел дорівнює ${total}.`);
+
 
 
 
@@ -109,6 +115,22 @@
 // / Пароль перевіряти так:
 // якщо введено пароль "Я головний", то вивести "Вітаю!",
 //     у іншому випадку виводити рядок "Невірний пароль!".
+
+// const userLogin = prompt(`Input your login`);
+// if (userLogin === `Адмін`) {
+//     const userPassword = prompt(`Input your password`);
+//     if (userPassword === `Я головний`) {
+//         console.log(`Вітаю!`);
+//     } else {
+//         console.log(`Невірний пароль!`);
+//         }
+// }
+// else if (!userLogin) {
+//         console.log(`Відмінено`);
+// } else {
+//     console.log(`Я вас не знаю!`)
+//     }
+ 
 
 
 
@@ -161,24 +183,14 @@
 // const string = 'abcde'
 // const string2 = 'bcde'
 
-// if string.startsWith("a") {
-//     console.log("так");
+// function name(str, symbol) {
+//     if (str[0] === symbol) {
+//         return `так`;
+//     } else {
+//         return `ні`;
+//     }
+
 // }
-// else {
-//     console.log("ні");
-// }
 
-
-
-// 10 Напишіть цикл, який виводить у консоль числа від max до min у порядку зменшення.
-// У консоль виведіть усі парні числа від max  до min
-
-// const max = 50
-// const min = 23
-
-// for (let i= max; i >= min; i--) {
-//    if (!(i%2)) {
-//     console.log(i)
-
-//    }
-// }
+// console.log(name(string, `a`));
+// console.log(name(string2, `b`));
