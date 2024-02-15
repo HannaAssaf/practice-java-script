@@ -15,3 +15,4 @@
 const numbers = [1, 2, 3];
 numbers[4] = 11;
 console.log(numbers);
+
