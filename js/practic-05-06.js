@@ -8,11 +8,4 @@ function goStore() {
     text.innerText = "You enter the store.";
   }
   
-  function goCave() {
-    console.log("Going to cave.");
-  }
-  
-  function fightDragon() {
-    console.log("Fighting dragon.");
-  }
-  
+ 
