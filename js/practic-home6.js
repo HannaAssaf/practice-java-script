@@ -12,8 +12,10 @@
 //   greet.call(context, "Bob");
   
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
+
+// console.log(null >= 0); //true
 
