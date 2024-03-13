@@ -189,3 +189,19 @@ console.log(numbers);
 
 console.log(null >= 0);
 
+console.log(null >= 0);  
+const person = "John";
+const context = {
+  person: "Alice"
+};
+
+greet.call(context, "Bob");
+
+
+const numbers = [1, 2, 3];
+numbers[4] = 11;
+console.log(numbers);
+
+
+console.log(null >= 0);
+
