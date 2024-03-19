@@ -725,12 +725,13 @@
 
 // const numbers = [1, 9, 6, 2, 3];
 
-
 // console.log(
 //   numbers.toSorted((curEl, nextEl) => {
 //     return nextEl - curEl;
 //   })
 // );
+
+
 
 // const descSortedNumbers = numbers.toSorted((next, current) => current - next);
 // const ascSortedNumbers = numbers.toSorted((next, current) => next - current);
