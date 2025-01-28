@@ -3,335 +3,296 @@
 // function greet(name) {
 //     console.log(`Hello, ${name}! I am ${this.person}`);
 //   }
-  
+
 //   const person = "John";
 //   const context = {
 //     person: "Alice"
 //   };
-  
+
 //   greet.call(context, "Bob");
-  
 
 // const numbers = [1, 2, 3];
 // numbers[4] = 11;
 // console.log(numbers);
 
+// console.log(null >= 0); //true
+
+// function greet(name) {
+//   console.log(`Hello, ${name}! I am ${this.person}`);
+// }
+
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
+
+// greet.call(context, 'Bob');
+
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
 // console.log(null >= 0); //true
 
+// function greet(name) {
+//   console.log(`Hello, ${name}! I am ${this.person}`);
+// }
 
-function greet(name) {
-    console.log(`Hello, ${name}! I am ${this.person}`);
-  }
-  
-  const person = "John";
-  const context = {
-    person: "Alice"
-  };
-  
-  greet.call(context, "Bob");
-  
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// greet.call(context, 'Bob');
 
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-console.log(null >= 0); //true
+// console.log(null >= 0); //true
 
-function greet(name) {
-    console.log(`Hello, ${name}! I am ${this.person}`);
-  }
-  
-  const person = "John";
-  const context = {
-    person: "Alice"
-  };
-  
-  greet.call(context, "Bob");
-  
+// console.log(null >= 0); //true
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// function greet(name) {
+//   console.log(`Hello, ${name}! I am ${this.person}`);
+// }
 
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
-console.log(null >= 0); //true
+// greet.call(context, 'Bob');
 
-console.log(null >= 0); //true
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-function greet(name) {
-    console.log(`Hello, ${name}! I am ${this.person}`);
-  }
-  
-  const person = "John";
-  const context = {
-    person: "Alice"
-  };
-  
-  greet.call(context, "Bob");
-  
+// console.log(null >= 0); //true
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
+// greet.call(context, 'Bob');
 
-console.log(null >= 0); //true
-  
-const person = "John";
-const context = {
-  person: "Alice"
-};
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-greet.call(context, "Bob");
+// console.log(null >= 0);
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
+// greet.call(context, 'Bob');
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
+// console.log(null >= 0);
 
-console.log(null >= 0);  
-const person = "John";
-const context = {
-  person: "Alice"
-};
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
-greet.call(context, "Bob");
+// greet.call(context, 'Bob');
 
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// console.log(null >= 0);
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
+// greet.call(context, 'Bob');
 
-console.log(null >= 0);
-  
-const person = "John";
-const context = {
-  person: "Alice"
-};
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-greet.call(context, "Bob");
+// console.log(null >= 0);
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
+// greet.call(context, 'Bob');
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
+// console.log(null >= 0);
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
-console.log(null >= 0);  
-const person = "John";
-const context = {
-  person: "Alice"
-};
+// greet.call(context, 'Bob');
 
-greet.call(context, "Bob");
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
+// console.log(null >= 0);
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// greet.call(context, 'Bob');
 
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-console.log(null >= 0);  
-const person = "John";
-const context = {
-  person: "Alice"
-};
+// console.log(null >= 0);
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
-greet.call(context, "Bob");
+// greet.call(context, 'Bob');
 
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// console.log(null >= 0);
 
+// console.log(null >= 0);
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
-console.log(null >= 0);  
-const person = "John";
-const context = {
-  person: "Alice"
-};
+// greet.call(context, 'Bob');
 
-greet.call(context, "Bob");
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
+// console.log(null >= 0);
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
+// console.log(null >= 0);
 
-console.log(null >= 0);
+// console.log(null >= 0);
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
-greet.call(context, "Bob");
+// greet.call(context, 'Bob');
 
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// console.log(null >= 0);
 
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-console.log(null >= 0);  
-const person = "John";
-const context = {
-  person: "Alice"
-};
+// console.log(null >= 0);
 
-greet.call(context, "Bob");
+// console.log(null >= 0);
+// const person = 'John';
+// const context = {
+//   person: 'Alice',
+// };
 
+// greet.call(context, 'Bob');
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
+// console.log(null >= 0);
 
-console.log(null >= 0);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
 
-console.log(null >= 0);  
-const person = "John";
-const context = {
-  person: "Alice"
-};
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-greet.call(context, "Bob");
+// console.log(null >= 0);
 
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// console.log(null >= 0);
 
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-console.log(null >= 0);
+// console.log(null >= 0);
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
+// console.log(null >= 0);
 
-console.log(null >= 0);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-console.log(null >= 0);  
-const person = "John";
-const context = {
-  person: "Alice"
-};
+// console.log(null >= 0);
 
-greet.call(context, "Bob");
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
+// console.log(null >= 0);
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// const numbers = [1, 2, 3];
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
+// console.log(null >= 0);
 
-console.log(null >= 0);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
 
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
+// numbers[4] = 11;
+// console.log(numbers);
 
+// console.log(null >= 0);
 
-console.log(null >= 0);
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
+// console.log(numbers);
 
-console.log(null >= 0);  
-const person = "John";
-const context = {
-  person: "Alice"
-};
+// console.log(null >= 0);
 
-greet.call(context, "Bob");
+// const numbers = [1, 2, 3];
+// numbers[4] = 11;
 
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
-
-
-console.log(null >= 0);
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
-
-
-console.log(null >= 0);
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
-
-
-console.log(null >= 0);
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
-
-
-console.log(null >= 0);
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
-
-
-console.log(null >= 0);
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
-
-
-console.log(null >= 0);
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
-
-
-console.log(null >= 0);
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-const numbers = [1, 2, 3];const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
-
-
-console.log(null >= 0);
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-
-numbers[4] = 11;
-console.log(numbers);
-
-
-console.log(null >= 0);
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-const numbers = [1, 2, 3];
-numbers[4] = 11;
-console.log(numbers);
-
-
-console.log(null >= 0);
-
-const numbers = [1, 2, 3];
-numbers[4] = 11;
+console.log(3 + 7 + '5' + 5);
