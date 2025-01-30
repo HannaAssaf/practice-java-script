@@ -296,3 +296,6 @@
 // numbers[4] = 11;
 
 console.log(3 + 7 + '5' + 5);
+
+let x = 1;
+console.log('x :', x);
