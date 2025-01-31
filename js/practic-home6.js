@@ -306,7 +306,11 @@ console.log(typeof 1234567890123456789012345678901234567890n);
 let uniqueSymbol = Symbol('description');
 console.log('uniqueSymbol:', uniqueSymbol);
 
-let first = 'One';
-let second = 'Two';
-second = first;
-console.log('🚀 ~ second:', second);
+// let first = 'One';
+// let second = 'Two';
+// second = first;
+// console.log('🚀 ~ firs:', firs);
+// console.log('second:', second);
+
+console.log(+'5' + true);
+console.log('7px' < 8);
