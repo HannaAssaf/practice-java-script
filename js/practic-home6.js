@@ -299,3 +299,14 @@ console.log(3 + 7 + '5' + 5);
 
 let x = 1;
 console.log('x :', x);
+
+console.log(typeof Symbol('symbol')); // "symbol"
+console.log(typeof 1234567890123456789012345678901234567890n);
+
+let uniqueSymbol = Symbol('description');
+console.log('uniqueSymbol:', uniqueSymbol);
+
+let first = 'One';
+let second = 'Two';
+second = first;
+console.log('🚀 ~ second:', second);

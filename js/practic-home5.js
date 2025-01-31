@@ -57,12 +57,10 @@
 //  return array;
 // }
 
-
 // const numbers = [1, 2, 3, 4, 5];
 // const value = 3;
 
 // console.log(filterArray(numbers, value));
-
 
 // ===============================================================================================
 // const pureMultiply = (array, value) => {
@@ -92,7 +90,6 @@
 // changeEven([1, 2, 3, 4, 5], 10)
 // console.log(updatedArray);
 
-
 // const planets = ["Earth", "Mars", "Venus", "Jupiter"];
 
 // const planetsInUpperCase = planets.map(planet => planet.toUpperCase());
@@ -100,17 +97,15 @@
 
 // ========================================================
 
-
 // const planets = ["Earth", "Mars", "Venus", "Jupiter"];
 
-// const planetsLengths = planets.map(planet => planet.length          
+// const planetsLengths = planets.map(planet => planet.length
 // );
 // =============================================================
 
 // TASK 1
 
 // const getUserNames = users => users.map(user => user.name);
-
 
 // console.log(
 //   getUserNames([
@@ -150,15 +145,13 @@
 //     balance: 2764
 //   },
 // ])
-// ); 
-
+// );
 
 // ==================================================================
 
 // TASK 2
 
 // const getUsersWithFriend = (users, friendName) => users.filter( user => user.friends.includes(friendName));
-
 
 // const allUsers = [
 //   {
@@ -191,7 +184,7 @@
 //   }
 // ];
 
-// console.log(getUsersWithFriend(allUsers, "Briana Decker")); 
+// console.log(getUsersWithFriend(allUsers, "Briana Decker"));
 // // [
 // //   {
 // //     name: "Sharlene Bush",
@@ -221,9 +214,8 @@
 
 // TASK 3
 
-// const sortByDescendingFriendCount = (users) => 
+// const sortByDescendingFriendCount = (users) =>
 //   users.toSorted((a, b) => b.friends.length - a.friends.length);
-
 
 // console.log(
 //   sortByDescendingFriendCount([
@@ -264,9 +256,6 @@
 //     }
 //   ])
 // );
-
-
-
 
 // [
 //   {
@@ -412,9 +401,6 @@
 // };
 // console.log(getModels(allCars));
 
-
-
-
 // =================================================
 // const tweets = [
 //   { id: "000", likes: 5, tags: ["js", "nodejs"] },
@@ -438,7 +424,6 @@
 
 // const numbers = [5, 10, 15, 20, 25];
 // const filteredNumbers = numbers.filter(value => value > 15);
-
 
 // console.log(filteredNumbers);
 
@@ -541,7 +526,6 @@
  * властивість onSale яких true.
  */
 
-
 // const getCarsWithDiscount = (cars) => {
 //    return  cars.filter(cAr => cAr.onSale === true)
 // };
@@ -556,11 +540,9 @@
 //     return cars.filter(carS => carS.type === type)
 // }
 
-
-
 // console.table(getCarsWithType(allCars, "suv"));
 // console.table(getCarsWithType(allCars, "sedan"));
-  
+
 // =================================================
 
 // const allCars = [
@@ -575,18 +557,18 @@
 //     { make: "Ford", model: "Fusion", type: "sedan", price: 22120 },
 //     { make: "Ford", model: "Explorer", type: "suv", price: 31660 },
 //   ];
-  
-  /**
-   * Шукаємо машину за моделлю
-   */
+
+/**
+ * Шукаємо машину за моделлю
+ */
 //   const getCarByModel = (cars, model) => {
 //     return cars.find( car =>  model === car.model)
 //   };
-  
+
 //   console.log(getCarByModel(allCars, "F-150"));
-  // console.log(getCarByModel(allCars, "CX-9"));
-  // console.log(getCarByModel(allCars, "Cayenne"));
-  
+// console.log(getCarByModel(allCars, "CX-9"));
+// console.log(getCarByModel(allCars, "Cayenne"));
+
 // =================================================
 
 // const players = [
@@ -596,27 +578,27 @@
 //     { id: "player-4", name: "Ajax", timePlayed: 150, points: 71, online: false },
 //     { id: "player-5", name: "Chelsy", timePlayed: 280, points: 48, online: true },
 //   ];
-  
-  /**
-   * Метод every
-   *
-   * - Поелементно перебирає оригінальний масив
-   * - Повертає true якщо всі елементи масиву задовольняють умову
-   */
+
+/**
+ * Метод every
+ *
+ * - Поелементно перебирає оригінальний масив
+ * - Повертає true якщо всі елементи масиву задовольняють умову
+ */
 //   const isAllOnline = players.every(player => player.online);
 //   console.log('isAllOnline: ', isAllOnline);
-  
-  /**
-   * Метод some
-   *
-   * - Поелементно перебирає оригінальний масив
-   * - Повертає true якщо хоча б один елемент масиву задовольняє умову
-   */
+
+/**
+ * Метод some
+ *
+ * - Поелементно перебирає оригінальний масив
+ * - Повертає true якщо хоча б один елемент масиву задовольняє умову
+ */
 //   const isAnyOnline = players.some(player => player.online);
 //   console.log("isAnyOnline: ", isAnyOnline);
-  
+
 //   const anyHardcorePlayers = players.some(player => player.points > 100);
-//   console.log("anyHardcorePlayers: ", anyHardcorePlayers); 
+//   console.log("anyHardcorePlayers: ", anyHardcorePlayers);
 
 // =================================================
 
@@ -669,7 +651,6 @@
 // )
 // console.log(totalAmount);
 
-
 // const names = [
 //   'Alex',
 //   'Viktor',
@@ -700,20 +681,17 @@
 //  АБО:
 // const sorted = numbers.sort(
 //     //   (next, current) => {
-    
+
 //     //     if (current > next){
 //     //       return -1
 //     //     }
 //     //     else {
 //     //       return 1
 //     //     }
-    
+
 //     //   }
 //     // );
 // console.log("sorted ", sorted);
-
-
-
 
 // const letters = ["b", "B", "a", "A"]
 // console.log("letters", letters);
@@ -731,8 +709,6 @@
 //   })
 // );
 
-
-
 // const descSortedNumbers = numbers.toSorted((next, current) => current - next);
 // const ascSortedNumbers = numbers.toSorted((next, current) => next - current);
 // console.log("descSortedNumbers", descSortedNumbers);
@@ -748,40 +724,34 @@
 //     { id: "player-4", name: "Ajax", timePlayed: 150, online: false },
 //     { id: "player-5", name: "Chelsey", timePlayed: 80, online: true },
 //   ];
-  
+
 // //   // За ігровим часом
 //   const sortedByBestPlayers = players.toSorted(
 //     (current, next) => current.timePlayed - next.timePlayed
 //   );
 //   console.table(sortedByBestPlayers);
-  
+
 //   const sortedByWorstPlayers = players.toSorted(
 //     (current, next) => next.timePlayed - current.timePlayed
 //   );
 //   console.table(sortedByWorstPlayers);
-  
-  // По первой букве имени
-  // const byName = players.toSorted(
-  //   (current, next) => {
-  //     if (current.name[0] > next.name[0]){
-  //       return 1
-  //     }
-  //     else {
-  //       return -1
-  //     }
-  //   }
-  // );
-  
-  
-  // const byName = players.toSorted(
-  //   (current, next) => current.name[0] > next.name[0] ? 1 : -1
-  // );
-  
-  // console.table(byName);
 
+// По первой букве имени
+// const byName = players.toSorted(
+//   (current, next) => {
+//     if (current.name[0] > next.name[0]){
+//       return 1
+//     }
+//     else {
+//       return -1
+//     }
+//   }
+// );
 
+// const byName = players.toSorted(
+//   (current, next) => current.name[0] > next.name[0] ? 1 : -1
+// );
 
-
-
+// console.table(byName);
 
 // =================================================
