@@ -347,7 +347,11 @@
 // console.log(getElementWidth('60px', '12px', '8.5px')); // 101
 // console.log(getElementWidth('200px', '0px', '0px')); // 200
 
-let x = 5;
-const y = x++;
-console.log(x++);
-console.log(y);
+// let x = 5;
+// const y = x++;
+// console.log(x);
+// console.log(y);
+
+for (let i = 3; i <= 5; ++i) {
+  console.log(i);
+}
