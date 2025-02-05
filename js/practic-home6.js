@@ -371,7 +371,45 @@
 // console.log(checkForSpam('Get rid of sPaM emails. Our book in on sale!')); // true
 // console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
 
-for (let i = 0; 1 < 10; i++) {
-  debugger;
-  console.log(i);
+// for (let i = 0; 1 < 10; i++) {
+//   debugger;
+//   console.log(i);
+// }
+// function countAscending(start, end) {
+//   for (let i = start; i <= end; i++) {
+//     console.log('Current value', i);
+//   }
+// }
+
+// countAscending(0, 5);
+
+// function countDescending(start, end) {
+//   for (let i = start; i > end; i--) {
+//     console.log('Current value', i);
+//   }
+// }
+
+// countDescending(11, 4);
+
+// let a = 10;
+// function calculateTotal(number) {
+//   // debugger;
+//   let sum = 0;
+//   for (let i = 0; i <= number; i++) {
+//     sum += i;
+//   }
+//   return sum;
+// }
+// const res = calculateTotal(a);
+// console.log('res:', res);
+
+function calculateEvenTotal(number) {
+  let sum = 2;
+  for (let i = 4; i <= number; i += 2) {
+    // if (i % 2 !== 0) continue;
+    sum += i;
+  }
+  return sum;
 }
+const res = calculateEvenTotal(20);
+console.log('res:', res);
