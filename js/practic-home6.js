@@ -372,5 +372,6 @@
 // console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
 
 for (let i = 0; 1 < 10; i++) {
+  debugger;
   console.log(i);
 }
