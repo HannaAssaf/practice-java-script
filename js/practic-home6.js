@@ -447,18 +447,25 @@
 // }
 
 // requestNumber();
-const min = Number(prompt('Введіть число від 0 до 59'));
-function getQuater(min) {
-  if (min >= 0 && min <= 14) {
-    alert(`${min} входить у першу чверть`);
-  } else if (min >= 15 && min <= 29) {
-    alert(`${min} входить у другу чверть`);
-  } else if (min >= 30 && min <= 44) {
-    alert(`${min} входить у третю чверть`);
-  } else if (min >= 45 && min <= 59) {
-    alert(`${min} входить у четверту чверть`);
-  } else {
-    alert(`Введіть ${min} менше 59`);
-  }
-}
-getQuater(min);
+// const min = Number(prompt('Введіть число від 0 до 59'));
+// function getQuater(min) {
+//   if (min >= 0 && min <= 14) {
+//     alert(`${min} входить у першу чверть`);
+//   } else if (min >= 15 && min <= 29) {
+//     alert(`${min} входить у другу чверть`);
+//   } else if (min >= 30 && min <= 44) {
+//     alert(`${min} входить у третю чверть`);
+//   } else if (min >= 45 && min <= 59) {
+//     alert(`${min} входить у четверту чверть`);
+//   } else {
+//     alert(`Введіть ${min} менше 59`);
+//   }
+// }
+// getQuater(min);
+
+// const planets = ['Earth', 'Mars', 'Venus'];
+
+// for (let i = 0; i < planets.length; i += 1) {
+//   console.log(planets[i]);
+// }
+// ,at
