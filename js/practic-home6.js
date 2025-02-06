@@ -403,13 +403,62 @@
 // const res = calculateTotal(a);
 // console.log('res:', res);
 
-function calculateEvenTotal(number) {
-  let sum = 2;
-  for (let i = 4; i <= number; i += 2) {
-    // if (i % 2 !== 0) continue;
-    sum += i;
+// function calculateEvenTotal(number) {
+//   let sum = 2;
+//   for (let i = 4; i <= number; i += 2) {
+//     // if (i % 2 !== 0) continue;
+//     sum += i;
+//   }
+//   return sum;
+// }
+// const res = calculateEvenTotal(20);
+// console.log('res:', res);
+
+// let counter = 0;
+// do {
+//   ++counter;
+//   console.log(counter);
+// } while (counter > 10);
+
+// const a = 20;
+// const b = 100;
+
+// function showASCNumber(a, b) {
+//   let temp = a;
+
+//   if (a > b) {
+//     a = b;
+//     b = temp;
+//   }
+//   for (let i = a; i < b; i++) {
+//     if (i % 5 !== 0) continue;
+//     console.log(i);
+//   }
+// }
+// showASCNumber(a, b);
+
+// function requestNumber() {
+//   let number = prompt('Введіть число');
+//   if (Number(number) === 10) {
+//     return alert('Вірно');
+//   } else {
+//     return alert('Невірно');
+//   }
+// }
+
+// requestNumber();
+const min = Number(prompt('Введіть число від 0 до 59'));
+function getQuater(min) {
+  if (min >= 0 && min <= 14) {
+    alert(`${min} входить у першу чверть`);
+  } else if (min >= 15 && min <= 29) {
+    alert(`${min} входить у другу чверть`);
+  } else if (min >= 30 && min <= 44) {
+    alert(`${min} входить у третю чверть`);
+  } else if (min >= 45 && min <= 59) {
+    alert(`${min} входить у четверту чверть`);
+  } else {
+    alert(`Введіть ${min} менше 59`);
   }
-  return sum;
 }
-const res = calculateEvenTotal(20);
-console.log('res:', res);
+getQuater(min);
