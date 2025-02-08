@@ -479,3 +479,48 @@
 // };
 
 // fn1();
+
+// const airplane = {
+//   manufactor: 'Boenig',
+//   airname: 'UA-PSA',
+//   model: '737',
+//   crew: {
+//     count: 3,
+//     rating: ['senior cabine crew', 'junior cabine crew'],
+//   },
+//   pilots: [
+//     {
+//       capitan: {
+//         name: 'Mango',
+//         hours: 10_000,
+//       },
+//       hasLicence: true,
+//     },
+//     {
+//       copilot: {
+//         name: 'Ajax',
+//         hours: 1_000,
+//       },
+//       hasLicence: true,
+//     },
+//   ],
+//   wings: 2,
+//   seats: 186,
+//   cabinClasses: ['1st class', 'business class', 'econom class'],
+//   laggageCapacity: 1500,
+//   engines: {
+//     power: 1_000,
+//     resouce: 100_000,
+//     fuelConsation: '100 l/hours',
+//   },
+// };
+
+// console.log(airplane.laggageCapacity);
+// console.log(airplane.pilots[1].hasLicence); //перевірити чи є у пілота ліцензія
+// console.log('Fuel consumption:', airplane['engines']['fuelConsation']);
+// console.log('Fuel consumption:', airplane.engines.fuelConsation);
+
+const userName = 'green';
+const email = 'gety@gmail.com';
+const colorPickerData = { userName, email };
+console.log(colorPickerData);
