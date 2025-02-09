@@ -520,7 +520,33 @@
 // console.log('Fuel consumption:', airplane['engines']['fuelConsation']);
 // console.log('Fuel consumption:', airplane.engines.fuelConsation);
 
-const userName = 'green';
-const email = 'gety@gmail.com';
-const colorPickerData = { userName, email };
-console.log(colorPickerData);
+// const userName = 'green';
+// const email = 'gety@gmail.com';
+// const colorPickerData = { userName, email };
+// console.log(colorPickerData);
+
+// const salsries = {
+//   John: 100,
+//   Ann: 160,
+//   Pete: 130,
+// };
+
+// let sum = 0;
+// for (let val of Object.values(salsries)) {
+//   sum += val;
+// }
+// console.log('sum:', sum);
+
+//створити динамічну назву ключа:
+
+// const carName = 'BMW';
+// const carColor = 'green';
+
+// const cars = {
+//   [carName + carColor]: 2000,
+// };
+// console.log(cars);
+
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(3, 1);
+console.log('months:', months);
