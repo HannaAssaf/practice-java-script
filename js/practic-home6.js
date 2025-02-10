@@ -591,23 +591,69 @@
 // const y = colorPickerOptions.find(option => option.label === 'blue'); // { label: "blue", color: "#2196F3" }
 // console.log('y:', y);
 
-const students = [
-  { name: 'Mango', score: 83 },
-  { name: 'Poly', score: 59 },
-  { name: 'Ajax', score: 37 },
-  { name: 'Kiwi', score: 94 },
-];
+// const students = [
+//   { name: 'Mango', score: 83 },
+//   { name: 'Poly', score: 59 },
+//   { name: 'Ajax', score: 37 },
+//   { name: 'Kiwi', score: 94 },
+// ];
 
-const inAscendingScoreOrder = students.toSorted(
-  (firstStudent, secondStudent) => firstStudent.score - secondStudent.score
-);
-console.log('inAscendingScoreOrder:', inAscendingScoreOrder);
+// const inAscendingScoreOrder = students.toSorted(
+//   (firstStudent, secondStudent) => firstStudent.score - secondStudent.score
+// );
+// console.log('inAscendingScoreOrder:', inAscendingScoreOrder);
 
-const inDescendingScoreOrder = students.toSorted(
-  (firstStudent, secondStudent) => secondStudent.score - firstStudent.score
-);
+// const inDescendingScoreOrder = students.toSorted(
+//   (firstStudent, secondStudent) => secondStudent.score - firstStudent.score
+// );
 
-const inAlphabeticalOrder = students.toSorted((firstStudent, secondStudent) =>
-  firstStudent.name.localeCompare(secondStudent.name)
-);
-console.log('inAlphabeticalOrder:', inAlphabeticalOrder);
+// const inAlphabeticalOrder = students.toSorted((firstStudent, secondStudent) =>
+//   firstStudent.name.localeCompare(secondStudent.name)
+// );
+// console.log('inAlphabeticalOrder:', inAlphabeticalOrder);
+
+// class Car {
+//   constructor(brand, model, price) {
+//     this.brand = brand;
+//     this.model = model;
+//     this.price = price;
+//   }
+// }
+// class Car {
+//   constructor(params) {
+//     this.brand = params.brand;
+//     this.model = params.model;
+//     this.price = params.price;
+//   }
+// }
+
+// class MyClass {
+//   static b = 5;
+
+//   constructor(value) {
+//     this.a = value;
+//   }
+// }
+
+// const instance = new MyClass(10);
+// console.log(instance.b);
+
+// class Car {
+//   static #maxPrice = 50000;
+//   static checkPrice(price) {
+//     if (price > Car.#maxPrice) {
+//       return 'Error! Price exceeds the maximum';
+//     }
+//     return 'Success! Price is within acceptable limits';
+//   }
+
+//   constructor(params) {
+//     this.price = params.price;
+//   }
+// }
+
+// const audi = new Car({ price: 36000 });
+// const bmw = new Car({ price: 64000 });
+
+// console.log(Car.checkPrice(audi.price)); // "Success! Price is within acceptable limits"
+// console.log(Car.checkPrice(bmw.price)); // "Error! Price exceeds the maximum"
