@@ -547,6 +547,67 @@
 // };
 // console.log(cars);
 
-const months = ['Jan', 'March', 'April', 'June'];
-months.splice(3, 1);
-console.log('months:', months);
+// const months = ['Jan', 'March', 'April', 'June'];
+// months.splice(3, 1);
+// console.log('months:', months);
+
+// const numbers = [5, 10, 15, 20, 25];
+// numbers.forEach(function (number, index) {
+//   console.log(`Index ${index}, value ${number}`);
+// });
+
+// const dirtyMultiply = (array, value) => {
+//   for (let i = 0; i < array.length; i += 1) {
+//     array[i] = array[i] * value;
+//   }
+// };
+
+// const numbers = [1, 2, 3, 4, 5];
+// dirtyMultiply(numbers, 2);
+// // Відбулася мутація вихідних даних - масиву numbers
+// console.log(numbers); // [2, 4, 6, 8, 10]
+
+// const LOW_SCORE = 50;
+// const HIGH_SCORE = 80;
+// const students = [
+//   { name: 'Mango', score: 83 },
+//   { name: 'Poly', score: 59 },
+//   { name: 'Ajax', score: 37 },
+//   { name: 'Kiwi', score: 94 },
+//   { name: 'Houston', score: 64 },
+// ];
+
+// const best = students.filter(student => student.score >= HIGH_SCORE);
+// console.log(best); //
+
+// const colorPickerOptions = [
+//   { label: 'red', color: '#F44336' },
+//   { label: 'green', color: '#4CAF50' },
+//   { label: 'blue', color: '#2196F3' },
+//   { label: 'pink', color: '#E91E63' },
+//   { label: 'indigo', color: '#3F51B5' },
+// ];
+
+// const y = colorPickerOptions.find(option => option.label === 'blue'); // { label: "blue", color: "#2196F3" }
+// console.log('y:', y);
+
+const students = [
+  { name: 'Mango', score: 83 },
+  { name: 'Poly', score: 59 },
+  { name: 'Ajax', score: 37 },
+  { name: 'Kiwi', score: 94 },
+];
+
+const inAscendingScoreOrder = students.toSorted(
+  (firstStudent, secondStudent) => firstStudent.score - secondStudent.score
+);
+console.log('inAscendingScoreOrder:', inAscendingScoreOrder);
+
+const inDescendingScoreOrder = students.toSorted(
+  (firstStudent, secondStudent) => secondStudent.score - firstStudent.score
+);
+
+const inAlphabeticalOrder = students.toSorted((firstStudent, secondStudent) =>
+  firstStudent.name.localeCompare(secondStudent.name)
+);
+console.log('inAlphabeticalOrder:', inAlphabeticalOrder);
