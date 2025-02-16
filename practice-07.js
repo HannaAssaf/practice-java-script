@@ -56,7 +56,7 @@ console.log(imageEl.hasAttribute('src'));
 // const actions = document.querySelectorAll('.actions button');
 
 /**
- * Інтерфейс classList
+ * Інтерфейс classList- робота з класами
  * - add
  * - remove
  * - toggle
@@ -64,8 +64,18 @@ console.log(imageEl.hasAttribute('src'));
  * - contains
  */
 
-const currentPageUrl = '/portfolio';
+const currentPageUrl = '/contact';
 // посилання на цю сторінку
 const linkEl = document.querySelector(
   `.site-nav__link[href="${currentPageUrl}"]`
 );
+// додати додатковий клас:
+
+linkEl.classList.add('styled-btn');
+
+// linkEl.classList.remove('site-nav__link');
+
+// linkEl.classList.replace('site-nav__link', 'styled-btn');
+
+// чи є клас?
+console.log(linkEl.classList.contains('styled-btn'));
