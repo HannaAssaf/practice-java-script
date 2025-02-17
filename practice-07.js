@@ -127,4 +127,46 @@ const options = [
   { label: 'індіго', color: '#3F51B5' },
 ];
 
-const colorPickerContainerEl = document.querySelector('.js-color-picker');
+const colorPickerContainerEl = document.querySelector('.color-picker');
+/**
+ * Пишемо функцію для створення розмітки колорпікера
+ */
+options.forEach(element => {
+  const a = document.createElement('div');
+  a.textContent = element.label;
+  a.style.backgroundColor = element.color;
+  a.style.color = 'white';
+  colorPickerContainerEl.append(a);
+});
+
+// 2й варіант
+// const colorPickerBtns = options.map(option => {
+//   const btnEl = document.createElement('btn');
+//   btnEl.type = 'button';
+//   btnEl.textContent = option.label[0].toUpperCase() + option.label.slice(1);
+//   btnEl.style.backgroundColor = option.color;
+//   btnEl.classList.add('color-picker__option');
+
+//   return btnEl;
+// });
+
+//! colorPickerBtns = [ {} = btn, {} = btn, {} = btn, {} = btn]
+
+// colorPickerContainerEl.append(...colorPickerBtns);
+
+/**
+ * Властивість innerHTML
+ * - зчитування
+ * - запис
+ */
+
+const titleEl2 = document.querySelector('.title');
+titleEl2.innerHTML = '<span>hello</span>';
+
+// console.log(titleEl.innerHTML);
+// titleEl.innerHTML += " <em>Listen joke:</em> some text of joke...";
+
+/**
+ * Вставка розмітки за допомогою insertAdjacentHTML()
+ */
+// titleEl.insertAdjacentHTML('beforebegin', '<em>Listen joke:</em>');
