@@ -89,5 +89,42 @@ const url =
 const titleEl = document.createElement('h1');
 titleEl.textContent = 'Hello from JS';
 
-const hero22 = document.querySelector('div.hero22');
-hero22.append(titleEl);
+const hero22 = document.querySelector('body');
+hero22.prepend(titleEl);
+
+/**
+ * Створюємо зображення
+ * https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg
+ * valais-alpine-mountains-glacier
+ */
+const imageEl = document.createElement('img');
+imageEl.setAttribute(
+  'src',
+  'https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg'
+);
+imageEl.setAttribute('alt', 'valais-alpine-mountains-glacier');
+const heroEl = document.querySelector('.hero');
+
+heroEl.append(imageEl);
+
+/**
+ * Створюємо та додаємо новий пункт меню
+ */
+const navItemEl = document.createElement('li');
+navItemEl.textContent = 'Product';
+const menu = document.querySelector('ul.site-nav');
+menu.prepend(navItemEl);
+
+/**
+ * Створюємо та додаємо колекцію
+ */
+const options = [
+  { label: 'червоний', color: '#F44336' },
+  { label: 'зелений', color: '#4CAF50' },
+  { label: 'синій', color: '#2196F3' },
+  { label: 'сірий', color: '#607D8B' },
+  { label: 'рожевий', color: '#E91E63' },
+  { label: 'індіго', color: '#3F51B5' },
+];
+
+const colorPickerContainerEl = document.querySelector('.js-color-picker');
