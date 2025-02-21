@@ -344,3 +344,7 @@ tableEl.querySelector('tbody').innerHTML = '';
 tableEl
   .querySelector('tbody')
   .insertAdjacentHTML('beforeend', createTableMarkupFn(transactionHistory));
+
+/* При кліку на кнопку змінити value в input2**/
+// const input = document.querySelector('#input2');
+// const btn = document.querySelector('button').......;
