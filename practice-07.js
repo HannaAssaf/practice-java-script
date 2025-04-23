@@ -391,4 +391,48 @@ const heroEl = document.querySelector('.hero');
 
 heroEl.append(imageEl);
 
+
+/**
+ * const titleEl = document.createElement('h1');
+titleEl.textContent = 'Hello from JS';
+
+const hero22 = document.querySelector('body');
+hero22.prepend(titleEl);
+
+/**
+ * Створюємо зображення
+ * https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg
+ * valais-alpine-mountains-glacier
+ */
+const imageEl = document.createElement('img');
+imageEl.setAttribute(
+  'src',
+  'https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg'
+);
+imageEl.setAttribute('alt', 'valais-alpine-mountains-glacier');
+const heroEl = document.querySelector('.hero');
+
+heroEl.append(imageEl);
+
+/**const titleEl = document.createElement('h1');
+titleEl.textContent = 'Hello from JS';
+
+const hero22 = document.querySelector('body');
+hero22.prepend(titleEl);
+
+/**
+ * Створюємо зображення
+ * https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg
+ * valais-alpine-mountains-glacier
+ */
+const imageEl = document.createElement('img');
+imageEl.setAttribute(
+  'src',
+  'https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg'
+);
+imageEl.setAttribute('alt', 'valais-alpine-mountains-glacier');
+const heroEl = document.querySelector('.hero');
+
+heroEl.append(imageEl);
+
 /**
